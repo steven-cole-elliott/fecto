@@ -1,0 +1,13 @@
+{application,fecto,
+             [{applications,[kernel,stdlib,elixir,logger,runtime_tools,
+                             postgrex,ecto]},
+              {description,"fecto"},
+              {modules,['Elixir.Fecto','Elixir.Fecto.Application',
+                        'Elixir.Fecto.DataCase','Elixir.Fecto.Persons',
+                        'Elixir.Fecto.Persons.Company',
+                        'Elixir.Fecto.Persons.Person','Elixir.Fecto.Repo',
+                        'Elixir.Fecto.Todos','Elixir.Fecto.Todos.Todo']},
+              {registered,[]},
+              {vsn,"0.0.1"},
+              {mod,{'Elixir.Fecto.Application',[]}},
+              {extra_applications,[logger,runtime_tools]}]}.
